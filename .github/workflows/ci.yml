@@ -42,7 +42,7 @@ jobs:
         run: echo ${{ steps.buildx.outputs.platforms }}
       -
         name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
+        uses: crazy-max/ghaction-dump-context@v1.2.0
 
   multi:
     runs-on: ubuntu-latest
